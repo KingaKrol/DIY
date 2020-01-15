@@ -5,21 +5,22 @@ using UnityEngine.UI;
 
 public class GameOverTrigger : MonoBehaviour
 {
-    public Image Lose;
+    public Image losePrincess;
+    public Image loseKnight;
     public AudioSource audioSource;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Princess")
         {
-            Lose.gameObject.SetActive(true);
+            losePrincess.gameObject.SetActive(true);
             audioSource.Play();
             Time.timeScale = 0;
         }
 
         if (other.tag == "Player")
         {
-            Lose.gameObject.SetActive(true);
+            loseKnight.gameObject.SetActive(true);
             audioSource.Play();
             Time.timeScale = 0;
         }
