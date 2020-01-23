@@ -49,7 +49,7 @@ public class KeyboardInput : MonoBehaviour
         }
 
         // jump
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Joystick1Button0))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Fire1"))
         {
             VirtualInputManager.Instance.Jump = true;
         }
