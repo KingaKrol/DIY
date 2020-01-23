@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="Kiste_03" size="40.000000 59.171597" />
+    <ImageTarget name="Kiste_01" size="40.000000 47.534164" />
+    <ImageTarget name="Kiste_02" size="46.000000 28.704000" />
     <ImageTarget name="making_games_cover" size="22.500000 31.824612" />
-    <ImageTarget name="DarkfireSoldier2" size="6.000000 8.700000" />
-    <ImageTarget name="DarkfireSoldier1" size="6.000000 8.752809" />
-    <ImageTarget name="peach_card" size="6.000000 8.401401" />
-    <ImageTarget name="yoshi_card" size="6.000000 8.465454" />
-    <ImageTarget name="kirby_test" size="7.000000 10.813158" />
   </Tracking>
 </QCARConfig>
