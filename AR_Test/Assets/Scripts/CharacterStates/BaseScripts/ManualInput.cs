@@ -56,9 +56,8 @@ public class ManualInput : MonoBehaviour
         }
 
         // jump
-        if (Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Fire1"))
+        if (VirtualInputManager.Instance.Jump)
         {
-            Debug.Log("Button pressed");
             characterControl.Jump = true;
         }
 
