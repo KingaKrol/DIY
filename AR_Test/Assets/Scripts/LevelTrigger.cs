@@ -11,7 +11,7 @@ public class LevelTrigger : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.P) || Input.GetButtonDown("Next"))
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("01_Level");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("01_Level_01");
             Time.timeScale = 1;
         }
 
