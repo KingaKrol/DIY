@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="Kiste_01" size="47.000000 29.469000" />
     <ImageTarget name="Kiste_03" size="40.000000 59.171597" />
-    <ImageTarget name="Kiste_01" size="40.000000 47.534164" />
     <ImageTarget name="Kiste_02" size="46.000000 28.704000" />
-    <ImageTarget name="making_games_cover" size="22.500000 31.824612" />
   </Tracking>
 </QCARConfig>
